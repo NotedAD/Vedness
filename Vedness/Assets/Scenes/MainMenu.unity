@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 92124968}
   - component: {fileID: 92124967}
   m_Layer: 5
-  m_Name: Text (Legacy) (1)
+  m_Name: 'Text (Legacy) '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 96046323}
   - component: {fileID: 96046322}
   m_Layer: 5
-  m_Name: Text (Legacy) (2)
+  m_Name: 'Text (Legacy) '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -295,7 +295,7 @@ GameObject:
   - component: {fileID: 335640990}
   - component: {fileID: 335640989}
   m_Layer: 5
-  m_Name: Text (Legacy) (4)
+  m_Name: 'Text (Legacy) '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -507,6 +507,8 @@ GameObject:
   m_Component:
   - component: {fileID: 428150377}
   - component: {fileID: 428150376}
+  - component: {fileID: 428150378}
+  - component: {fileID: 428150379}
   m_Layer: 0
   m_Name: Music MainMenu
   m_TagString: Untagged
@@ -625,6 +627,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &428150378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428150375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0343ef2083e40c64b86950cdfeb2a34d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audio: {fileID: 428150376}
+  slider: {fileID: 0}
+  text: {fileID: 0}
+  saveVolumeKey: BG_MUSIC
+  sliderTag: BG_MUSIC_VOLUME_SLIDER
+  textVolumeTag: BG_MUSIC_VOLUME_TEXT
+  volume: 1
+--- !u!114 &428150379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428150375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07bffe9e9ee9bbb41aab1d83f6f67135, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createdTag: BG_MUSIC_CREATED
 --- !u!1 &439339952
 GameObject:
   m_ObjectHideFlags: 0
@@ -1319,7 +1353,6 @@ GameObject:
   - component: {fileID: 1796516823}
   - component: {fileID: 1796516822}
   - component: {fileID: 1796516821}
-  - component: {fileID: 1796516824}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1377,15 +1410,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1796516824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1796516820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00ca3704f06418f478e75831dcdb2458, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

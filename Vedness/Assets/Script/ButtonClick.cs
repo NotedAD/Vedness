@@ -3,19 +3,22 @@ using UnityEngine.SceneManagement;
 
 public class ButtonClick : MonoBehaviour
 {
-    //—цена MainMenu
 
+    //Scene MainMenu
     static int scene;
+
     public void Continue()
     {
         scene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadSceneAsync(1, LoadSceneMode.Additive);
     }
+
     public void NewGame()
     {
         scene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadSceneAsync(2, LoadSceneMode.Additive);
     }
+
     public void Options()
     {
         scene = SceneManager.GetActiveScene().buildIndex;
@@ -27,6 +30,7 @@ public class ButtonClick : MonoBehaviour
         scene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadSceneAsync(5, LoadSceneMode.Additive);
     }
+
     public void Update()
     {
         if (Application.platform == RuntimePlatform.Android)
@@ -34,12 +38,12 @@ public class ButtonClick : MonoBehaviour
             if (Input.GetKey(KeyCode.Home) || Input.GetKey(KeyCode.Escape) || Input.GetKey(KeyCode.Menu))
             {
                 scene = SceneManager.GetActiveScene().buildIndex;
-                SceneManager.LoadScene("Quit");
+                SceneManager.LoadScene("Quit", LoadSceneMode.Additive);
             }
         }
     }
 
-    //—цена Quit
+    //Scene Quit
 
     public void No()
     {
@@ -51,10 +55,10 @@ public class ButtonClick : MonoBehaviour
         Application.Quit();
     }
 
-    //ƒл€ всех сцен
+    //All scene
 
     public void Back()
     {
-        SceneManager.LoadSceneAsync(scene);
+        SceneManager.LoadScene(scene);
     }
 }
