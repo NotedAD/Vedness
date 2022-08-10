@@ -10,25 +10,25 @@ public class ButtonClick : MonoBehaviour
     public void Continue()
     {
         scene = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadSceneAsync(1, LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("Continue", LoadSceneMode.Additive);
     }
 
     public void NewGame()
     {
         scene = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadSceneAsync(2, LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("NewGame", LoadSceneMode.Additive);
     }
 
     public void Options()
     {
         scene = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadSceneAsync(3, LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("Options", LoadSceneMode.Additive);
     }
 
     public void InfoTheGame()
     {
         scene = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadSceneAsync(5, LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("InfoTheGame", LoadSceneMode.Additive);
     }
 
     public void Update()
