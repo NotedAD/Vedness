@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SoundVolumeControllerComponent : MonoBehaviour
 {
@@ -24,6 +25,8 @@ public class SoundVolumeControllerComponent : MonoBehaviour
     [Header("Parameters")]
     [Tooltip("Sound Volume Value")]
     [SerializeField][Range(0.0f, 1.0f)] private float volume;
+
+    public static float perd=1f;
 
     private void Awake()
     {
@@ -76,5 +79,15 @@ public class SoundVolumeControllerComponent : MonoBehaviour
         }
 
         this.audio.volume = this.volume;
+        SoundVolumeControllerComponent.perd = audio.volume;
     }
+    public void LoadData()
+    {
+        if (SoundVolumeControllerComponent.perd!=1)
+        {
+            this.audio.volume = SoundVolumeControllerComponent.perd;
+            this.slider.value = SoundVolumeControllerComponent.perd;
+        }
+    }
+
 }

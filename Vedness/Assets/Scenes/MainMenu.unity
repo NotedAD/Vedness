@@ -591,7 +591,7 @@ GameObject:
   - component: {fileID: 428150379}
   m_Layer: 0
   m_Name: Music MainMenu
-  m_TagString: Untagged
+  m_TagString: MMM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -699,8 +699,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 428150375}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.00012207031, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -725,7 +725,7 @@ MonoBehaviour:
   saveVolumeKey: BG_MUSIC
   sliderTag: BG_MUSIC_VOLUME_SLIDER
   textVolumeTag: BG_MUSIC_VOLUME_TEXT
-  volume: 1
+  volume: 0.422
 --- !u!114 &428150379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1403,7 +1403,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -490.98, y: -317}
+  m_AnchoredPosition: {x: -490.98, y: -309}
   m_SizeDelta: {x: 723.2557, y: 132.9229}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1424183247
@@ -1453,6 +1453,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1141574628}
         m_TargetAssemblyTypeName: ButtonClick, Assembly-CSharp
         m_MethodName: Options
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 428150378}
+        m_TargetAssemblyTypeName: SoundVolumeControllerComponent, Assembly-CSharp
+        m_MethodName: LoadData
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
