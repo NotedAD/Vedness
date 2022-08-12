@@ -8,28 +8,10 @@ public class ButtonClick : MonoBehaviour
     //Scene MainMenu
     static int scene;
 
-    public void Continue()
-    {
-        scene = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadSceneAsync("Continue", LoadSceneMode.Additive);
-    }
-
     public void NewGame()
     {
         scene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadSceneAsync("NewGame", LoadSceneMode.Additive);
-    }
-
-    public void Options()
-    {
-        scene = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadSceneAsync("Options", LoadSceneMode.Additive);
-    }
-
-    public void InfoTheGame()
-    {
-        scene = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadSceneAsync("InfoTheGame", LoadSceneMode.Additive);
     }
 
     public void Update()

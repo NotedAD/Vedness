@@ -6,7 +6,7 @@ public class SoundVolumeControllerComponent : MonoBehaviour
 {
     [Header("Components")]
     [Tooltip("Audio Source Does Тot Connect Automatically")]
-    [SerializeField] private new AudioSource audio;
+    [SerializeField] private AudioSource audio;
     [Tooltip("Slider Search Using A Tag")]
     [SerializeField] private Slider slider;
     [Tooltip("Text Search Using A Tag")]
@@ -80,14 +80,6 @@ public class SoundVolumeControllerComponent : MonoBehaviour
 
         this.audio.volume = this.volume;
         SoundVolumeControllerComponent.perd = audio.volume;
-    }
-    public void LoadData()
-    {
-        if (SoundVolumeControllerComponent.perd!=1)
-        {
-            this.audio.volume = SoundVolumeControllerComponent.perd;
-            this.slider.value = SoundVolumeControllerComponent.perd;
-        }
     }
 
 }

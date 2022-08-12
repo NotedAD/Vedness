@@ -6,7 +6,7 @@ Library: lib_burst_generated
 --dump=Function
 --float-precision=Standard
 --disable-warnings=BC1370
---compilation-defines=UNITY_2021_3_7
+--compilation-defines=UNITY_2021_3_8
 --compilation-defines=UNITY_2021_3
 --compilation-defines=UNITY_2021
 --compilation-defines=UNITY_5_3_OR_NEWER
@@ -104,6 +104,9 @@ Library: lib_burst_generated
 --compilation-defines=ENABLE_MONO
 --compilation-defines=NET_STANDARD_2_0
 --compilation-defines=NET_STANDARD
+--compilation-defines=NET_STANDARD_2_1
+--compilation-defines=NETSTANDARD
+--compilation-defines=NETSTANDARD2_1
 --compilation-defines=ENABLE_CUSTOM_RENDER_TEXTURE
 --compilation-defines=ENABLE_DIRECTOR
 --compilation-defines=ENABLE_LOCALIZATION
@@ -154,6 +157,7 @@ Library: lib_burst_generated
 --root-assembly=D:\Vedness\Vedness\Vedness\Temp\StagingArea\Data\Managed\Unity.Services.Core.Threading.dll
 --root-assembly=D:\Vedness\Vedness\Vedness\Temp\StagingArea\Data\Managed\Unity.2D.Tilemap.Extras.dll
 --root-assembly=D:\Vedness\Vedness\Vedness\Temp\StagingArea\Data\Managed\Unity.Services.Core.Networking.dll
+--root-assembly=D:\Vedness\Vedness\Vedness\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=D:\Vedness\Vedness\Vedness\Temp\StagingArea\Data\Managed\Unity.InternalAPIEngineBridge.001.dll
 --root-assembly=D:\Vedness\Vedness\Vedness\Temp\StagingArea\Data\Managed\Unity.Services.Core.Configuration.dll
 --assembly-folder=D:\Vedness\Vedness\Vedness\Temp\StagingArea\Data\Managed\
