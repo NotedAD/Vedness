@@ -7,6 +7,8 @@ public class ButtonClick : MonoBehaviour
 
     //Scene MainMenu
     static int scene;
+    public string quitTag;
+    private GameObject quitObj;
 
     public void NewGame()
     {
@@ -20,8 +22,8 @@ public class ButtonClick : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Home) || Input.GetKey(KeyCode.Escape) || Input.GetKey(KeyCode.Menu))
             {
-                scene = SceneManager.GetActiveScene().buildIndex;
-                SceneManager.LoadScene("Quit", LoadSceneMode.Additive);
+                GameObject quitObj = GameObject.FindWithTag(this.quitTag);
+                quitObj.SetActive(true);
             }
         }
     }
@@ -30,7 +32,7 @@ public class ButtonClick : MonoBehaviour
 
     public void No()
     {
-        SceneManager.LoadScene(scene);
+        quitObj.SetActive(false);
     }
 
     public void Yes()

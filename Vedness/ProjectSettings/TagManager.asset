@@ -9,6 +9,7 @@ TagManager:
   - BG_MUSIC_CREATED
   - OPTION
   - MMM
+  - QUIT_TAG
   layers:
   - Default
   - TransparentFX
