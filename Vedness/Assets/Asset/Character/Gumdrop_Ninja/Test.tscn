@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Gumdrop.tscn" type="PackedScene" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+zoom = Vector2( 0.25, 0.25 )
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+
+[node name="Gumdrop" parent="." instance=ExtResource( 1 )]
