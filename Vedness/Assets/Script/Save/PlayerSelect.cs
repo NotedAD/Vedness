@@ -53,7 +53,7 @@ public class PlayerSelect : MonoBehaviour
         else if (index == 1)
         {
             characters[0].SetActive(false);
-            characters[3].SetActive(false);
+            characters[2].SetActive(false);
         }
         else if (index == 2)
         {
