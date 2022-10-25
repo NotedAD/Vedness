@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SoliderMove : MonoBehaviour
+public class PlayerMove : MonoBehaviour
 {
     public float dirX, dirY;
     public bool isf = true;

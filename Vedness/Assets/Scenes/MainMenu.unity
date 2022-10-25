@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 11556893}
   - component: {fileID: 11556894}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mage-Cyan_0
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -351,7 +351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 83934425}
   - component: {fileID: 83934426}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Archer-Purple_0
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -688,7 +688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 273525688}
   - component: {fileID: 273525689}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Soldier-Red_0
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3334,7 +3334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 978702059}
   - component: {fileID: 978702060}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5968,9 +5968,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1873653020}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

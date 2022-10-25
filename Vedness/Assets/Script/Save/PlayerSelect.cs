@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,8 +7,7 @@ using UnityEngine.SceneManagement;
 public class PlayerSelect : MonoBehaviour
 {
     private GameObject[] characters;
-    private int index;
-    
+    public int index;
     private void Start()
     {
         index = PlayerPrefs.GetInt("CharacterSelected");
@@ -27,7 +27,6 @@ public class PlayerSelect : MonoBehaviour
             characters[index].SetActive(true);
         }
     }
-
     public void Solider()
     {
             index = 0;
