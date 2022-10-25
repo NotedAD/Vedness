@@ -45,6 +45,21 @@ public class PlayerSelect : MonoBehaviour
     public void StartScene()
     {
         PlayerPrefs.SetInt("CharacterSelected", index);
+        if(index == 0)
+        {
+            characters[1].SetActive(false);
+            characters[2].SetActive(false);
+        }
+        else if (index == 1)
+        {
+            characters[0].SetActive(false);
+            characters[3].SetActive(false);
+        }
+        else if (index == 2)
+        {
+            characters[0].SetActive(false);
+            characters[1].SetActive(false);
+        }
         SceneManager.LoadScene("MainGame");
     }
         
