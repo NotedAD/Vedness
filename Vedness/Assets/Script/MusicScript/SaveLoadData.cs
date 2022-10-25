@@ -7,7 +7,7 @@ public class SaveLoadData : MonoBehaviour
 {
     public readonly string AudioPref = "AudioPref";
     public Slider slider;
-    public AudioSource audio;
+    public new AudioSource audio;
     public void SaveSoundSetting()
     {
         PlayerPrefs.SetFloat(AudioPref, SoundVolumeControllerComponent.perd);

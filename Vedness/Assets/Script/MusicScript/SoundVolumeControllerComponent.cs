@@ -6,7 +6,7 @@ public class SoundVolumeControllerComponent : MonoBehaviour
 {
     [Header("Components")]
     [Tooltip("Audio Source Does Тot Connect Automatically")]
-    [SerializeField] private AudioSource audio;
+    [SerializeField] private new AudioSource audio;
     [Tooltip("Slider Search Using A Tag")]
     [SerializeField] private Slider slider;
     [Tooltip("Text Search Using A Tag")]
