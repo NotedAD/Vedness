@@ -4,39 +4,27 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    public float dirX, dirY;
-    public bool isf = true;
-    public float speed;
+    public float moveSpeed;
 
-    private Rigidbody2D rb;
-    private Animator anin;
     public Joystick joystick;
+    public Rigidbody2D rb2;
+    public Animator animator;
 
-    void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        anin = GetComponent<Animator>();
-    }
+    Vector2 movement;
 
     void Update()
     {
         //управление и движение
-        dirX = joystick.Horizontal * speed;
-        dirY = joystick.Vertical * speed;
+        movement.x = joystick.Horizontal * moveSpeed;
+        movement.y = joystick.Vertical * moveSpeed;
 
-        anin.SetFloat("Horizontal", dirX);
-        anin.SetFloat("Vertical", dirY);
-        anin.SetFloat("Speed", speed);
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
     void FixedUpdate()
     {
-        rb.velocity = new Vector2(dirX, dirY);
-    }
-
-    private void Flip()
-    {
-        isf = !isf;
-        transform.Rotate(0f, 180, 0f);
+        rb2.MovePosition(rb2.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 }

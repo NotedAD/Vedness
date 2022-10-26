@@ -1376,11 +1376,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f73733706285514eabf703a4bd1542f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dirX: 0
-  dirY: 0
-  isf: 1
-  speed: 0.5
+  moveSpeed: 0.5
   joystick: {fileID: 1199782780}
+  rb2: {fileID: 662127280}
+  animator: {fileID: 662127279}
 --- !u!95 &662127279
 Animator:
   serializedVersion: 4
@@ -1389,9 +1388,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662127275}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fb73f340721b39b449dcf28d35a5c9c5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2179,7 +2178,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1037550529
 Transform:
   m_ObjectHideFlags: 0
@@ -2259,11 +2258,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f73733706285514eabf703a4bd1542f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dirX: 0
-  dirY: 0
-  isf: 1
-  speed: 0.5
+  moveSpeed: 5
   joystick: {fileID: 1199782780}
+  rb2: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!95 &1037550532
 Animator:
   serializedVersion: 4
@@ -6147,7 +6145,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1717360576
 Transform:
   m_ObjectHideFlags: 0
@@ -6227,11 +6225,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f73733706285514eabf703a4bd1542f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dirX: 0
-  dirY: 0
-  isf: 1
-  speed: 0.5
+  moveSpeed: 5
   joystick: {fileID: 1199782780}
+  rb2: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!95 &1717360579
 Animator:
   serializedVersion: 4
