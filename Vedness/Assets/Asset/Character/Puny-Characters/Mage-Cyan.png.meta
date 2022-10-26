@@ -69,7 +69,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -4196,8 +4196,8 @@ TextureImporter:
       Mage-Cyan_4: -2137718663
       Mage-Cyan_0: 1884899037
       Mage-Cyan_61: -1955132498
-      Mage-Cyan_160: 554569387
       Mage-Cyan_100: -619542783
+      Mage-Cyan_160: 554569387
       Mage-Cyan_163: 363671112
       Mage-Cyan_94: -1251736175
       Mage-Cyan_156: 1257909402
