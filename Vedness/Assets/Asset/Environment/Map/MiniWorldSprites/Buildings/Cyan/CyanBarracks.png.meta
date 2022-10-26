@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -517,7 +517,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      CyanBarracks_16: -1755797226
+      CyanBarracks_11: 356434282
       CyanBarracks_19: 1446228916
       CyanBarracks_8: 1219446631
       CyanBarracks_9: -959794886
@@ -535,8 +535,8 @@ TextureImporter:
       CyanBarracks_6: 614104252
       CyanBarracks_15: -1093717667
       CyanBarracks_4: 15367512
-      CyanBarracks_11: 356434282
       CyanBarracks_17: -1609214803
+      CyanBarracks_16: -1755797226
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

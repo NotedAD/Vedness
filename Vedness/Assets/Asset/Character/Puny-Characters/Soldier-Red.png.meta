@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -4203,8 +4203,8 @@ TextureImporter:
       Soldier-Red_107: 350904444
       Soldier-Red_8: -1110485349
       Soldier-Red_139: -1847369591
-      Soldier-Red_168: -93277255
       Soldier-Red_177: -719482900
+      Soldier-Red_168: -93277255
       Soldier-Red_78: 226908762
       Soldier-Red_39: 2100581293
       Soldier-Red_71: -159169186
@@ -4279,10 +4279,10 @@ TextureImporter:
       Soldier-Red_182: -2022009458
       Soldier-Red_14: 1385480851
       Soldier-Red_48: 1233136492
-      Soldier-Red_134: -822397765
-      Soldier-Red_102: -750904929
       Soldier-Red_173: 1228495736
+      Soldier-Red_134: -822397765
       Soldier-Red_43: -939562558
+      Soldier-Red_102: -750904929
       Soldier-Red_110: -1417323837
       Soldier-Red_13: 1335419432
       Soldier-Red_114: -234409911
@@ -4306,8 +4306,8 @@ TextureImporter:
       Soldier-Red_72: 2146441784
       Soldier-Red_95: -370177528
       Soldier-Red_7: 1998451270
-      Soldier-Red_16: 1141033131
       Soldier-Red_101: 283930106
+      Soldier-Red_16: 1141033131
       Soldier-Red_20: 2065270578
       Soldier-Red_119: 1459606001
       Soldier-Red_164: -809422269

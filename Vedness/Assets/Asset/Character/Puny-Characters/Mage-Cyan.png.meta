@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -103,6 +103,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -4184,8 +4196,8 @@ TextureImporter:
       Mage-Cyan_4: -2137718663
       Mage-Cyan_0: 1884899037
       Mage-Cyan_61: -1955132498
-      Mage-Cyan_100: -619542783
       Mage-Cyan_160: 554569387
+      Mage-Cyan_100: -619542783
       Mage-Cyan_163: 363671112
       Mage-Cyan_94: -1251736175
       Mage-Cyan_156: 1257909402
