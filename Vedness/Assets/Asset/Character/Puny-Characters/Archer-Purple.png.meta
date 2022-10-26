@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -103,6 +103,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -4221,8 +4233,8 @@ TextureImporter:
       Archer-Purple_0: -1504768227
       Archer-Purple_47: 935290189
       Archer-Purple_1: -956954966
-      Archer-Purple_89: -1541157369
       Archer-Purple_138: -1349904190
+      Archer-Purple_89: -1541157369
       Archer-Purple_88: -126413260
       Archer-Purple_124: 235658629
       Archer-Purple_97: -844943958
@@ -4241,9 +4253,9 @@ TextureImporter:
       Archer-Purple_186: 1244941381
       Archer-Purple_123: -263724319
       Archer-Purple_185: -1808871444
+      Archer-Purple_75: 577104592
       Archer-Purple_24: -377911812
       Archer-Purple_22: 1259609685
-      Archer-Purple_75: 577104592
       Archer-Purple_13: -1062522576
       Archer-Purple_74: -1789521948
       Archer-Purple_16: 1859826796
@@ -4272,8 +4284,8 @@ TextureImporter:
       Archer-Purple_40: 164443764
       Archer-Purple_19: 220250234
       Archer-Purple_2: -1541195496
-      Archer-Purple_168: -601325965
       Archer-Purple_184: -983987170
+      Archer-Purple_168: -601325965
       Archer-Purple_29: -271072903
       Archer-Purple_116: 580072758
       Archer-Purple_155: -87431700

@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -1247,10 +1247,11 @@ TextureImporter:
       top-down-forest-tileset_85: -1918236989
       top-down-forest-tileset_49: -2000084781
       top-down-forest-tileset_107: -1034172925
-      top-down-forest-tileset_6: -2130115110
+      top-down-forest-tileset_92: 254750499
       top-down-forest-tileset_72: 1360908278
       top-down-forest-tileset_53: 328765126
       top-down-forest-tileset_27: -938099642
+      top-down-forest-tileset_6: -2130115110
       top-down-forest-tileset_79: 1221110738
       top-down-forest-tileset_81: 148129087
       top-down-forest-tileset_52: 1501138442
@@ -1274,7 +1275,6 @@ TextureImporter:
       top-down-forest-tileset_60: 762717285
       top-down-forest-tileset_14: 1528906723
       top-down-forest-tileset_58: 95255725
-      top-down-forest-tileset_92: 254750499
       top-down-forest-tileset_26: 1145812653
       top-down-forest-tileset_96: -1035212671
       top-down-forest-tileset_105: 486983781
