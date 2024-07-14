@@ -6,7 +6,6 @@ public class PlayerMove : MonoBehaviour
 {
     public float moveSpeed;
 
-    public Joystick joystick;
     public Rigidbody2D rb2;
     public Animator animator;
 
@@ -14,9 +13,8 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-        //управление и движение
-        movement.x = joystick.Horizontal * moveSpeed;
-        movement.y = joystick.Vertical * moveSpeed;
+        movement.x = Input.GetAxis("Horizontal") * moveSpeed;
+        movement.y = Input.GetAxis("Vertical") * moveSpeed;
 
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
